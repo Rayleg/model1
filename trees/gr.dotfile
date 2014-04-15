@@ -1,0 +1,30 @@
+graph "decision tree" {
+"0. grad_year <= 2013.0" -- "1. grad_year <= 0.0";
+"0. grad_year <= 2013.0" -- "2. friends <= 222.0";
+"1. grad_year <= 0.0" -- "3. emotions <= 8.0";
+"1. grad_year <= 0.0" -- "4. friends <= 199.0";
+"2. friends <= 222.0" -- "5. emotions <= 4.0";
+"2. friends <= 222.0" -- "6. friends <= 433.0";
+"3. emotions <= 8.0" -- "7. friends <= 230.0";
+"3. emotions <= 8.0" -- "8. albums <= 7.0";
+"4. friends <= 199.0" -- "9. avg = 22.8, am = 5";
+"4. friends <= 199.0" -- "10. avg = 23.4117647059, am = 17";
+"5. emotions <= 4.0" -- "11. friends <= 130.0";
+"5. emotions <= 4.0" -- "12. avg = 20.4137931034, am = 29";
+"6. friends <= 433.0" -- "13. avg = 20.6216216216, am = 37";
+"6. friends <= 433.0" -- "14. emotions <= 6.0";
+"7. friends <= 230.0" -- "15. albums <= 4.0";
+"7. friends <= 230.0" -- "16. albums <= 4.0";
+"8. albums <= 7.0" -- "17. friends <= 138.0";
+"8. albums <= 7.0" -- "18. avg = 20.5555555556, am = 9";
+"11. friends <= 130.0" -- "19. avg = 20.7777777778, am = 9";
+"11. friends <= 130.0" -- "20. avg = 19.6875, am = 16";
+"14. emotions <= 6.0" -- "21. avg = 20.2857142857, am = 14";
+"14. emotions <= 6.0" -- "22. avg = 22.0, am = 7";
+"15. albums <= 4.0" -- "23. avg = 20.4545454545, am = 22";
+"15. albums <= 4.0" -- "24. avg = 20.0, am = 12";
+"16. albums <= 4.0" -- "25. avg = 19.9285714286, am = 14";
+"16. albums <= 4.0" -- "26. avg = 21.1428571429, am = 7";
+"17. friends <= 138.0" -- "27. avg = 21.625, am = 8";
+"17. friends <= 138.0" -- "28. avg = 22.1428571429, am = 7";
+}

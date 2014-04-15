@@ -1,0 +1,10 @@
+graph "decision tree" {
+"0. followers <= 76.0" -- "1. emotions <= 13.0";
+"0. followers <= 76.0" -- "2. CLASS = False, div = 79/39";
+"1. emotions <= 13.0" -- "3. friends <= 28.0";
+"1. emotions <= 13.0" -- "4. CLASS = False, div = 15/6";
+"3. friends <= 28.0" -- "5. CLASS = False, div = 5/4";
+"3. friends <= 28.0" -- "6. likes <= 18.0";
+"6. likes <= 18.0" -- "7. CLASS = True, div = 67/211";
+"6. likes <= 18.0" -- "8. CLASS = False, div = 3/2";
+}
